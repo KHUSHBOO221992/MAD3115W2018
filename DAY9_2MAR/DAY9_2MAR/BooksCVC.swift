@@ -48,6 +48,12 @@ class BooksCVC: UICollectionViewController {
         cell.imgBook.image = UIImage(named: booksImages[indexPath.row])
         return cell
     }
+    
+    // THIS CODING USED TO CONNECT GRID IMAGE WE CREATED TO  CONNECT NEXT VIEW WHICH EVER WE WANT TO
+    
+   override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    print("Book : \(booksTitles[indexPath.row])")
+    }
 
 
 
