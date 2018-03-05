@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B022FF2204D5EEC00BCDD2C /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B022FF1204D5EEC00BCDD2C /* LocationVC.swift */; };
+		9B022FF4204D5F5700BCDD2C /* ReportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B022FF3204D5F5700BCDD2C /* ReportVC.swift */; };
+		9B022FF6204D5F7100BCDD2C /* SupportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B022FF5204D5F7100BCDD2C /* SupportVC.swift */; };
+		9B022FF8204D5F9700BCDD2C /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B022FF7204D5F9700BCDD2C /* ProfileVC.swift */; };
+		9B022FFA204D5FB400BCDD2C /* AddParkingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B022FF9204D5FB400BCDD2C /* AddParkingVC.swift */; };
+		9B022FFC204D63CC00BCDD2C /* MenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B022FFB204D63CC00BCDD2C /* MenuItems.swift */; };
+		9B022FFE204D777900BCDD2C /* locationTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B022FFD204D777900BCDD2C /* locationTVC.swift */; };
 		9B4EBA9F20497BA9002C8B29 /* Manual.html in Resources */ = {isa = PBXBuildFile; fileRef = 9B4EBA9E20497BA9002C8B29 /* Manual.html */; };
 		9B4EBAA120497C91002C8B29 /* ManualVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4EBAA020497C91002C8B29 /* ManualVC.swift */; };
 		9B4EBAA320497E1F002C8B29 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4EBAA220497E1F002C8B29 /* MenuCell.swift */; };
@@ -40,6 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B022FF1204D5EEC00BCDD2C /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
+		9B022FF3204D5F5700BCDD2C /* ReportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportVC.swift; sourceTree = "<group>"; };
+		9B022FF5204D5F7100BCDD2C /* SupportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportVC.swift; sourceTree = "<group>"; };
+		9B022FF7204D5F9700BCDD2C /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		9B022FF9204D5FB400BCDD2C /* AddParkingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddParkingVC.swift; sourceTree = "<group>"; };
+		9B022FFB204D63CC00BCDD2C /* MenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItems.swift; sourceTree = "<group>"; };
+		9B022FFD204D777900BCDD2C /* locationTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationTVC.swift; sourceTree = "<group>"; };
 		9B4EBA9E20497BA9002C8B29 /* Manual.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Manual.html; sourceTree = "<group>"; };
 		9B4EBAA020497C91002C8B29 /* ManualVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualVC.swift; sourceTree = "<group>"; };
 		9B4EBAA220497E1F002C8B29 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
@@ -117,10 +131,17 @@
 				9B67C38520442E510080EA86 /* LoginVC.swift */,
 				9B67C38320442E2B0080EA86 /* RegisterVC.swift */,
 				9B67C38720442E940080EA86 /* MenuTVC.swift */,
+				9B022FFB204D63CC00BCDD2C /* MenuItems.swift */,
 				9B4EBAA220497E1F002C8B29 /* MenuCell.swift */,
 				9B67C38B204441550080EA86 /* Customer.swift */,
-				9B4EBA9E20497BA9002C8B29 /* Manual.html */,
+				9B022FF9204D5FB400BCDD2C /* AddParkingVC.swift */,
+				9B022FF1204D5EEC00BCDD2C /* LocationVC.swift */,
+				9B022FFD204D777900BCDD2C /* locationTVC.swift */,
+				9B022FF3204D5F5700BCDD2C /* ReportVC.swift */,
 				9B4EBAA020497C91002C8B29 /* ManualVC.swift */,
+				9B4EBA9E20497BA9002C8B29 /* Manual.html */,
+				9B022FF5204D5F7100BCDD2C /* SupportVC.swift */,
+				9B022FF7204D5F9700BCDD2C /* ProfileVC.swift */,
 			);
 			path = NRK_PARKING;
 			sourceTree = "<group>";
@@ -280,10 +301,17 @@
 			files = (
 				9B4EBAA320497E1F002C8B29 /* MenuCell.swift in Sources */,
 				9B67C38820442E940080EA86 /* MenuTVC.swift in Sources */,
+				9B022FF6204D5F7100BCDD2C /* SupportVC.swift in Sources */,
 				9B4EBAA120497C91002C8B29 /* ManualVC.swift in Sources */,
 				9B67C38C204441550080EA86 /* Customer.swift in Sources */,
+				9B022FF4204D5F5700BCDD2C /* ReportVC.swift in Sources */,
+				9B022FFC204D63CC00BCDD2C /* MenuItems.swift in Sources */,
 				9B67C38420442E2B0080EA86 /* RegisterVC.swift in Sources */,
+				9B022FFA204D5FB400BCDD2C /* AddParkingVC.swift in Sources */,
+				9B022FF2204D5EEC00BCDD2C /* LocationVC.swift in Sources */,
+				9B022FFE204D777900BCDD2C /* locationTVC.swift in Sources */,
 				9B7EC471203EDDF8007CD4C1 /* AppDelegate.swift in Sources */,
+				9B022FF8204D5F9700BCDD2C /* ProfileVC.swift in Sources */,
 				9B67C38620442E510080EA86 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
