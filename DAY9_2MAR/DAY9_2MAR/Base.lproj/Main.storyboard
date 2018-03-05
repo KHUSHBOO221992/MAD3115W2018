@@ -35,7 +35,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5ft-Pl-Olx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-522" y="-442"/>
+            <point key="canvasLocation" x="-647" y="-442"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="tQn-Vf-6Vv">
@@ -50,11 +50,138 @@
                     <connections>
                         <segue destination="NjJ-pn-NwX" kind="relationship" relationship="viewControllers" id="v3w-hq-aui"/>
                         <segue destination="3Xm-WL-Sxd" kind="relationship" relationship="viewControllers" id="Hy1-qM-VRp"/>
+                        <segue destination="r72-yH-LhA" kind="relationship" relationship="viewControllers" id="hZx-TQ-tKo"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AVC-kr-aco" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-922" y="-1214"/>
+            <point key="canvasLocation" x="-1015" y="-1217"/>
+        </scene>
+        <!--Root View Controller-->
+        <scene sceneID="1lS-bl-DTk">
+            <objects>
+                <tableViewController id="ryz-Ad-GJ6" customClass="ContactTVC" customModule="DAY9_2MAR" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="x9Y-Zp-s26">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="contactCell" rowHeight="98" id="zAG-Fs-JY2" customClass="ContactCell" customModule="DAY9_2MAR" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="98"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zAG-Fs-JY2" id="242-LN-DlG">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="97.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gnw-LT-SoN">
+                                            <rect key="frame" x="16" y="0.0" width="88" height="44"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jVh-QQ-jVN">
+                                            <rect key="frame" x="16" y="43" width="88" height="44"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="ContactSubtitle" destination="jVh-QQ-jVN" id="3d4-li-nX3"/>
+                                    <outlet property="ContactTitle" destination="Gnw-LT-SoN" id="ZY7-0H-k0K"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ryz-Ad-GJ6" id="3W4-i6-pqd"/>
+                            <outlet property="delegate" destination="ryz-Ad-GJ6" id="qxg-GK-bCd"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="CcG-ZP-T3F"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d0s-E9-E9A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="661.60000000000002" y="-1216.6416791604199"/>
+        </scene>
+        <!--Contact DetailVC-->
+        <scene sceneID="Xwy-Jv-2fX">
+            <objects>
+                <viewController id="k3D-au-jIm" customClass="ContactDetailVC" customModule="DAY9_2MAR" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qiP-kA-oZQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRo-KQ-pvj">
+                                <rect key="frame" x="64" y="440" width="77" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Call"/>
+                                <connections>
+                                    <action selector="btnCallAction:" destination="k3D-au-jIm" eventType="touchUpInside" id="Pil-9J-0Kp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fpf-ur-6N7">
+                                <rect key="frame" x="235" y="440" width="79" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Text"/>
+                                <connections>
+                                    <action selector="btnTextAction:" destination="k3D-au-jIm" eventType="touchUpInside" id="xNv-Gs-nH3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZg-pE-WFo">
+                                <rect key="frame" x="157" y="579" width="77" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="E-Mail"/>
+                                <connections>
+                                    <action selector="btnEmailAction:" destination="k3D-au-jIm" eventType="touchUpInside" id="p3X-nc-oT0"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Call.png" translatesAutoresizingMaskIntoConstraints="NO" id="YAU-7Z-Pbw">
+                                <rect key="frame" x="57" y="356" width="87" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Email.png" translatesAutoresizingMaskIntoConstraints="NO" id="KHu-zj-v5Y">
+                                <rect key="frame" x="149" y="477" width="82" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Message.png" translatesAutoresizingMaskIntoConstraints="NO" id="o2h-sQ-tKY">
+                                <rect key="frame" x="235" y="356" width="79" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="happy.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="yg2-5b-Ciz">
+                                <rect key="frame" x="0.0" y="38" width="375" height="277"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="vhs-Hu-efc"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnEmailAction" destination="MZg-pE-WFo" id="L5X-Kg-vbb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ftf-en-QAI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1357.5999999999999" y="-1218.440779610195"/>
+        </scene>
+        <!--Contacts-->
+        <scene sceneID="gfD-Jk-sGn">
+            <objects>
+                <navigationController id="r72-yH-LhA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Contacts" id="Vjx-v5-Lbi"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="4R1-Yi-Uty">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ryz-Ad-GJ6" kind="relationship" relationship="rootViewController" id="xSx-e3-L37"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Biu-hX-9nR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-132" y="-1215"/>
         </scene>
         <!--BOOKS-->
         <scene sceneID="4zu-JH-Arn">
@@ -112,7 +239,11 @@
     </scenes>
     <resources>
         <image name="Books.png" width="25" height="25"/>
+        <image name="Call.png" width="96" height="96"/>
+        <image name="Email.png" width="96" height="96"/>
+        <image name="Message.png" width="96" height="96"/>
         <image name="Video.png" width="25" height="25"/>
+        <image name="happy.jpeg" width="236" height="214"/>
         <image name="imageView:7Ld-G4-QGd:image" width="183" height="276">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGUlNYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK8QEQcI
