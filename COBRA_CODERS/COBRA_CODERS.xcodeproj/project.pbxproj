@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B2D44E7204E922600B62AB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D44E6204E922600B62AB5 /* AppDelegate.swift */; };
+		9B2D44EC204E922600B62AB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2D44EA204E922600B62AB5 /* Main.storyboard */; };
+		9B2D44EF204E922600B62AB5 /* COBRA_CODERS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D44ED204E922600B62AB5 /* COBRA_CODERS.xcdatamodeld */; };
+		9B2D44F1204E922600B62AB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2D44F0204E922600B62AB5 /* Assets.xcassets */; };
+		9B2D44F4204E922600B62AB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2D44F2204E922600B62AB5 /* LaunchScreen.storyboard */; };
+		9B2D44FC204E926D00B62AB5 /* Payment.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B2D44FB204E926D00B62AB5 /* Payment.plist */; };
+		9B2D44FE204E92A200B62AB5 /* Registration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B2D44FD204E92A200B62AB5 /* Registration.plist */; };
+		9B2D4500204E92F000B62AB5 /* MenuTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D44FF204E92F000B62AB5 /* MenuTVC.swift */; };
+		9B2D4502204E93F900B62AB5 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D4501204E93F900B62AB5 /* LoginVC.swift */; };
+		9B2D4504204E953C00B62AB5 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D4503204E953C00B62AB5 /* RegisterVC.swift */; };
+		9B2D4506204E960600B62AB5 /* ReceiptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D4505204E960600B62AB5 /* ReceiptVC.swift */; };
+		9B2D4508204E967F00B62AB5 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D4507204E967F00B62AB5 /* LocationVC.swift */; };
+		9B2D450A204E972900B62AB5 /* UserProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D4509204E972900B62AB5 /* UserProfileVC.swift */; };
+		9B2D450C204EA63500B62AB5 /* SupportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D450B204EA63500B62AB5 /* SupportVC.swift */; };
+		9B2D450E204EB00E00B62AB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D450D204EB00E00B62AB5 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B2D44E3204E922600B62AB5 /* COBRA_CODERS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COBRA_CODERS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B2D44E6204E922600B62AB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B2D44EB204E922600B62AB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B2D44EE204E922600B62AB5 /* COBRA_CODERS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = COBRA_CODERS.xcdatamodel; sourceTree = "<group>"; };
+		9B2D44F0204E922600B62AB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B2D44F3204E922600B62AB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B2D44F5204E922600B62AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B2D44FB204E926D00B62AB5 /* Payment.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Payment.plist; sourceTree = "<group>"; };
+		9B2D44FD204E92A200B62AB5 /* Registration.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Registration.plist; sourceTree = "<group>"; };
+		9B2D44FF204E92F000B62AB5 /* MenuTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTVC.swift; sourceTree = "<group>"; };
+		9B2D4501204E93F900B62AB5 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		9B2D4503204E953C00B62AB5 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		9B2D4505204E960600B62AB5 /* ReceiptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptVC.swift; sourceTree = "<group>"; };
+		9B2D4507204E967F00B62AB5 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
+		9B2D4509204E972900B62AB5 /* UserProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileVC.swift; sourceTree = "<group>"; };
+		9B2D450B204EA63500B62AB5 /* SupportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportVC.swift; sourceTree = "<group>"; };
+		9B2D450D204EB00E00B62AB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B2D44E0204E922600B62AB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B2D44DA204E922600B62AB5 = {
+			isa = PBXGroup;
+			children = (
+				9B2D44E5204E922600B62AB5 /* COBRA_CODERS */,
+				9B2D44E4204E922600B62AB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B2D44E4204E922600B62AB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D44E3204E922600B62AB5 /* COBRA_CODERS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B2D44E5204E922600B62AB5 /* COBRA_CODERS */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D44E6204E922600B62AB5 /* AppDelegate.swift */,
+				9B2D450D204EB00E00B62AB5 /* ViewController.swift */,
+				9B2D44EA204E922600B62AB5 /* Main.storyboard */,
+				9B2D44F0204E922600B62AB5 /* Assets.xcassets */,
+				9B2D44F2204E922600B62AB5 /* LaunchScreen.storyboard */,
+				9B2D44F5204E922600B62AB5 /* Info.plist */,
+				9B2D44ED204E922600B62AB5 /* COBRA_CODERS.xcdatamodeld */,
+				9B2D44FB204E926D00B62AB5 /* Payment.plist */,
+				9B2D44FD204E92A200B62AB5 /* Registration.plist */,
+				9B2D44FF204E92F000B62AB5 /* MenuTVC.swift */,
+				9B2D4501204E93F900B62AB5 /* LoginVC.swift */,
+				9B2D4503204E953C00B62AB5 /* RegisterVC.swift */,
+				9B2D4505204E960600B62AB5 /* ReceiptVC.swift */,
+				9B2D4507204E967F00B62AB5 /* LocationVC.swift */,
+				9B2D4509204E972900B62AB5 /* UserProfileVC.swift */,
+				9B2D450B204EA63500B62AB5 /* SupportVC.swift */,
+			);
+			path = COBRA_CODERS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B2D44E2204E922600B62AB5 /* COBRA_CODERS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B2D44F8204E922600B62AB5 /* Build configuration list for PBXNativeTarget "COBRA_CODERS" */;
+			buildPhases = (
+				9B2D44DF204E922600B62AB5 /* Sources */,
+				9B2D44E0204E922600B62AB5 /* Frameworks */,
+				9B2D44E1204E922600B62AB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = COBRA_CODERS;
+			productName = COBRA_CODERS;
+			productReference = 9B2D44E3204E922600B62AB5 /* COBRA_CODERS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B2D44DB204E922600B62AB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = MacStudent;
+				TargetAttributes = {
+					9B2D44E2204E922600B62AB5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9B2D44DE204E922600B62AB5 /* Build configuration list for PBXProject "COBRA_CODERS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B2D44DA204E922600B62AB5;
+			productRefGroup = 9B2D44E4204E922600B62AB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B2D44E2204E922600B62AB5 /* COBRA_CODERS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B2D44E1204E922600B62AB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2D44F4204E922600B62AB5 /* LaunchScreen.storyboard in Resources */,
+				9B2D44FC204E926D00B62AB5 /* Payment.plist in Resources */,
+				9B2D44F1204E922600B62AB5 /* Assets.xcassets in Resources */,
+				9B2D44FE204E92A200B62AB5 /* Registration.plist in Resources */,
+				9B2D44EC204E922600B62AB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B2D44DF204E922600B62AB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B2D450E204EB00E00B62AB5 /* ViewController.swift in Sources */,
+				9B2D4506204E960600B62AB5 /* ReceiptVC.swift in Sources */,
+				9B2D44EF204E922600B62AB5 /* COBRA_CODERS.xcdatamodeld in Sources */,
+				9B2D4500204E92F000B62AB5 /* MenuTVC.swift in Sources */,
+				9B2D4504204E953C00B62AB5 /* RegisterVC.swift in Sources */,
+				9B2D450A204E972900B62AB5 /* UserProfileVC.swift in Sources */,
+				9B2D450C204EA63500B62AB5 /* SupportVC.swift in Sources */,
+				9B2D4508204E967F00B62AB5 /* LocationVC.swift in Sources */,
+				9B2D44E7204E922600B62AB5 /* AppDelegate.swift in Sources */,
+				9B2D4502204E93F900B62AB5 /* LoginVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B2D44EA204E922600B62AB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B2D44EB204E922600B62AB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B2D44F2204E922600B62AB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B2D44F3204E922600B62AB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B2D44F6204E922600B62AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B2D44F7204E922600B62AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B2D44F9204E922600B62AB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = COBRA_CODERS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.COBRA-CODERS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B2D44FA204E922600B62AB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = COBRA_CODERS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CestarCollege.COBRA-CODERS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B2D44DE204E922600B62AB5 /* Build configuration list for PBXProject "COBRA_CODERS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B2D44F6204E922600B62AB5 /* Debug */,
+				9B2D44F7204E922600B62AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B2D44F8204E922600B62AB5 /* Build configuration list for PBXNativeTarget "COBRA_CODERS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B2D44F9204E922600B62AB5 /* Debug */,
+				9B2D44FA204E922600B62AB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B2D44ED204E922600B62AB5 /* COBRA_CODERS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B2D44EE204E922600B62AB5 /* COBRA_CODERS.xcdatamodel */,
+			);
+			currentVersion = 9B2D44EE204E922600B62AB5 /* COBRA_CODERS.xcdatamodel */;
+			path = COBRA_CODERS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9B2D44DB204E922600B62AB5 /* Project object */;
+}
