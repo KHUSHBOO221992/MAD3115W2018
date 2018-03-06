@@ -22,6 +22,8 @@
 		9B2D450A204E972900B62AB5 /* UserProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D4509204E972900B62AB5 /* UserProfileVC.swift */; };
 		9B2D450C204EA63500B62AB5 /* SupportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D450B204EA63500B62AB5 /* SupportVC.swift */; };
 		9B2D450E204EB00E00B62AB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2D450D204EB00E00B62AB5 /* ViewController.swift */; };
+		9B5545D7204EC1C800B274CB /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9B5545D6204EC1C800B274CB /* 1.jpeg */; };
+		9B5545D9204EC2C500B274CB /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B5545D8204EC2C500B274CB /* images.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		9B2D4509204E972900B62AB5 /* UserProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileVC.swift; sourceTree = "<group>"; };
 		9B2D450B204EA63500B62AB5 /* SupportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportVC.swift; sourceTree = "<group>"; };
 		9B2D450D204EB00E00B62AB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B5545D6204EC1C800B274CB /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpeg; path = ../../1.jpeg; sourceTree = "<group>"; };
+		9B5545D8204EC2C500B274CB /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpg; path = ../../images.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				9B2D44F0204E922600B62AB5 /* Assets.xcassets */,
 				9B2D44F2204E922600B62AB5 /* LaunchScreen.storyboard */,
 				9B2D44F5204E922600B62AB5 /* Info.plist */,
+				9B5545D6204EC1C800B274CB /* 1.jpeg */,
+				9B5545D8204EC2C500B274CB /* images.jpg */,
 				9B2D44ED204E922600B62AB5 /* COBRA_CODERS.xcdatamodeld */,
 				9B2D44FB204E926D00B62AB5 /* Payment.plist */,
 				9B2D44FD204E92A200B62AB5 /* Registration.plist */,
@@ -154,8 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B2D44F4204E922600B62AB5 /* LaunchScreen.storyboard in Resources */,
+				9B5545D7204EC1C800B274CB /* 1.jpeg in Resources */,
 				9B2D44FC204E926D00B62AB5 /* Payment.plist in Resources */,
 				9B2D44F1204E922600B62AB5 /* Assets.xcassets in Resources */,
+				9B5545D9204EC2C500B274CB /* images.jpg in Resources */,
 				9B2D44FE204E92A200B62AB5 /* Registration.plist in Resources */,
 				9B2D44EC204E922600B62AB5 /* Main.storyboard in Resources */,
 			);

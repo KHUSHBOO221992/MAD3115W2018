@@ -14,7 +14,7 @@ class LoginVC: UIViewController {
 
     @IBOutlet weak var txtPassword: UITextField!
 
-    @IBOutlet weak var switchRemember: UISwitch!
+    @IBOutlet weak var switchRemember: UILabel!
 
 
     override func viewDidLoad() {

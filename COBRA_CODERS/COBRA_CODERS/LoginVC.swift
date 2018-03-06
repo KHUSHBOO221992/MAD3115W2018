@@ -20,7 +20,7 @@ class LoginVC: UIViewController
         let pass = uPass.text
         let email = uEmail.text
         
-        if(email == "user" && pass == "user")
+        if(email == "king" && pass == "cobra")
         {
         }
             

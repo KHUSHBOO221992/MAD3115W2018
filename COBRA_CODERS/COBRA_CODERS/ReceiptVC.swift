@@ -37,7 +37,7 @@ class ReceiptVC: UIViewController
     @IBAction func btnReceipt(_ sender: UIButton)
     {
         let listSB = UIStoryboard(name: "Main", bundle: nil)
-        let listVC = listSB.instantiateViewController(withIdentifier: "pReceiptViewController")
+        let listVC = listSB.instantiateViewController(withIdentifier: "ReceiptVC")
         self.navigationController?.pushViewController(listVC, animated: true)
         
     }
@@ -51,13 +51,13 @@ class ReceiptVC: UIViewController
         myReceipt["customerName"] = self.custName.text
         myReceipt["cardType"] = self.cardType
         myReceipt["promoCode"] = self.promoCode.text
-        if let plistPath = Bundle.main.path(forResource: "payment", ofType: "plist")
+        if let plistPath = Bundle.main.path(forResource: "Payment", ofType: "plist")
         {
             let carsplist = NSMutableArray(contentsOfFile: plistPath)
             carsplist?.add(myReceipt)
             if (carsplist?.write(toFile: plistPath, atomically: true))!
             {
-                print("carslist : \(String(describing: carsplist))")
+                print("TOTAL CARLIST : \(String(describing: carsplist))")
             }
             
         }

@@ -42,7 +42,7 @@ class RegisterVC: UIViewController
         
         if (Name == "" || Email == "" || Contact == "" || CarPlate == "" || Password == "" || ConfirmPassword == "")
         {
-            let infoAlert = UIAlertController(title: "Invalid Information", message: "Kindly fill all the fields" , preferredStyle: .alert)
+            let infoAlert = UIAlertController(title: "Invalid Information", message: "Please.....Don,t leave Blank" , preferredStyle: .alert)
             
             infoAlert.addAction(UIAlertAction(title: "Cancel", style: .default, handler: nil))
             

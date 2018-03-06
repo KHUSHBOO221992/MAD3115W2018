@@ -17,6 +17,7 @@
 		9B4EBA9F20497BA9002C8B29 /* Manual.html in Resources */ = {isa = PBXBuildFile; fileRef = 9B4EBA9E20497BA9002C8B29 /* Manual.html */; };
 		9B4EBAA120497C91002C8B29 /* ManualVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4EBAA020497C91002C8B29 /* ManualVC.swift */; };
 		9B4EBAA320497E1F002C8B29 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4EBAA220497E1F002C8B29 /* MenuCell.swift */; };
+		9B5545DB204ED1BE00B274CB /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B5545DA204ED1BE00B274CB /* images.jpg */; };
 		9B67C38420442E2B0080EA86 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67C38320442E2B0080EA86 /* RegisterVC.swift */; };
 		9B67C38620442E510080EA86 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67C38520442E510080EA86 /* LoginVC.swift */; };
 		9B67C38820442E940080EA86 /* MenuTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67C38720442E940080EA86 /* MenuTVC.swift */; };
@@ -57,6 +58,7 @@
 		9B4EBA9E20497BA9002C8B29 /* Manual.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Manual.html; sourceTree = "<group>"; };
 		9B4EBAA020497C91002C8B29 /* ManualVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualVC.swift; sourceTree = "<group>"; };
 		9B4EBAA220497E1F002C8B29 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		9B5545DA204ED1BE00B274CB /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpg; path = ../../images.jpg; sourceTree = "<group>"; };
 		9B67C38320442E2B0080EA86 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		9B67C38520442E510080EA86 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		9B67C38720442E940080EA86 /* MenuTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTVC.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				9B7EC477203EDDF8007CD4C1 /* Assets.xcassets */,
 				9B7EC47C203EDDF8007CD4C1 /* Info.plist */,
 				9B7EC479203EDDF8007CD4C1 /* LaunchScreen.storyboard */,
+				9B5545DA204ED1BE00B274CB /* images.jpg */,
 				9B7EC474203EDDF8007CD4C1 /* Main.storyboard */,
 				9B67C38520442E510080EA86 /* LoginVC.swift */,
 				9B67C38320442E2B0080EA86 /* RegisterVC.swift */,
@@ -272,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B4EBA9F20497BA9002C8B29 /* Manual.html in Resources */,
+				9B5545DB204ED1BE00B274CB /* images.jpg in Resources */,
 				9B7EC47B203EDDF8007CD4C1 /* LaunchScreen.storyboard in Resources */,
 				9B7EC478203EDDF8007CD4C1 /* Assets.xcassets in Resources */,
 				9B7EC476203EDDF8007CD4C1 /* Main.storyboard in Resources */,
