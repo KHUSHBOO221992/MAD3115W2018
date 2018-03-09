@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="tHi-Qj-Eg0">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--MomentsPVC-->
+        <scene sceneID="IPd-7K-Ycg">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="tHi-Qj-Eg0" customClass="MomentsPVC" customModule="DAY12_GESTURES" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YPn-5i-Vkb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18" y="-821"/>
+        </scene>
+        <!--FirstVC-->
+        <scene sceneID="bdb-Ge-CWE">
+            <objects>
+                <viewController storyboardIdentifier="FirstScreen" id="I04-tx-LI2" customClass="FirstVC" customModule="DAY12_GESTURES" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rnz-cI-d48">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pooh2.png" translatesAutoresizingMaskIntoConstraints="NO" id="MNA-7a-3pA">
+                                <rect key="frame" x="83" y="341" width="208" height="252"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="l7T-Y7-rdl" appends="YES" id="N5c-bm-myR"/>
+                                    <outletCollection property="gestureRecognizers" destination="Pdm-Up-UXL" appends="YES" id="rwQ-jo-2CQ"/>
+                                    <outletCollection property="gestureRecognizers" destination="hmB-N3-Z1y" appends="YES" id="q2R-Gc-MKA"/>
+                                </connections>
+                            </imageView>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pooh1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="QEY-hn-Edw">
+                                <rect key="frame" x="29" y="37" width="313" height="263"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="U4K-jb-HAt" appends="YES" id="Lep-Tp-cll"/>
+                                    <outletCollection property="gestureRecognizers" destination="S0g-YU-18j" appends="YES" id="obX-5H-EXn"/>
+                                    <outletCollection property="gestureRecognizers" destination="rmw-bJ-DYb" appends="YES" id="3lb-UN-PFF"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <viewLayoutGuide key="safeArea" id="3bn-bE-uiD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ckt-iT-0Bw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="U4K-jb-HAt">
+                    <connections>
+                        <action selector="handlePinchWithRecognizer:" destination="I04-tx-LI2" id="7TM-md-j9a"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="rmw-bJ-DYb">
+                    <connections>
+                        <action selector="handlePanWithRecognizer:" destination="I04-tx-LI2" id="o53-qZ-vwc"/>
+                    </connections>
+                </panGestureRecognizer>
+                <rotationGestureRecognizer id="S0g-YU-18j">
+                    <connections>
+                        <action selector="handleRotateWithRecognizer:" destination="I04-tx-LI2" id="3pa-2B-wuh"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <pinchGestureRecognizer id="l7T-Y7-rdl">
+                    <connections>
+                        <action selector="handlePinchWithRecognizer:" destination="I04-tx-LI2" id="iA9-X8-XPl"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="Pdm-Up-UXL">
+                    <connections>
+                        <action selector="handleRotateWithRecognizer:" destination="I04-tx-LI2" id="bpo-nv-ge8"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="hmB-N3-Z1y">
+                    <connections>
+                        <action selector="handlePanWithRecognizer:" destination="I04-tx-LI2" id="Sjx-v2-feR"/>
+                    </connections>
+                </panGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-301.60000000000002" y="-104.7976011994003"/>
+        </scene>
+        <!--SecondVC-->
+        <scene sceneID="KFH-ft-NMK">
+            <objects>
+                <viewController storyboardIdentifier="SecondScreen" id="oc9-fD-qDn" customClass="SecondVC" customModule="DAY12_GESTURES" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pdf-c8-zLf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.56284224989999998" blue="0.31881666180000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="nfr-WW-XLK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lle-Lr-Sq1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="449" y="-104"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pooh1.jpeg" width="225" height="225"/>
+        <image name="pooh2.png" width="193" height="261"/>
+    </resources>
+</document>

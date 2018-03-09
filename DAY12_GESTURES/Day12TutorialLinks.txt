@@ -1,0 +1,8 @@
+Gesture:
+
+https://www.raywenderlich.com/162745/uigesturerecognizer-tutorial-getting-started
+https://www.youtube.com/watch?v=195hyrtU8ao
+
+PageView:
+
+https://spin.atomicobject.com/2015/12/23/swift-uipageviewcontroller-tutorial/
